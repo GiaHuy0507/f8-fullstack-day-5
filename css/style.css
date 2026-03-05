@@ -107,7 +107,7 @@ strong {
 }
 
 /* --------------MENU-------------- */
-/* .container-menu {
+.container-menu {
   background-color: #3e5cca;
   padding: 0 56px;
   font-size: 0;
@@ -127,26 +127,6 @@ strong {
   text-decoration: none;
 }
 
-.container-menu .active a {
-  background-color: #eeeeee;
-  color: #111111;
-} */
-.container-menu {
-  background-color: #3e5cca;
-  padding: 0 56px;
-  font-size: 0;
-}
-.container-menu li {
-  display: inline-block;
-}
-.container-menu li a {
-  display: inline-block;
-  font-size: 16px;
-  padding: 14px;
-  color: white;
-  text-decoration: none;
-  font-weight: 700;
-}
 .container-menu .active a {
   background-color: #eeeeee;
   color: #111111;
