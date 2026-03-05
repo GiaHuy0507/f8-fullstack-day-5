@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* ----------CV---------- */
+.container-cv {
+  background-color: #c3a39f;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.container-cv-content {
+  background-color: white;
+  width: 540px;
+  margin: 0 auto;
+  padding: 20px 48px;
+}
+.container-cv-content h2,
+.container-cv-content p,
+.container-cv-content ul,
+.container-cv-content li,
+.container-cv-content h3 {
+  text-align: left;
+}
+/* h1 */
+.container-cv-content h1 {
+  font-size: 14px;
+  font-weight: 700;
+}
+/* p */
+.container-cv-content p {
+  font-size: 8px;
+  text-align: center;
+  font-weight: 500;
+}
+.cv-content p {
+  text-align: right;
+}
+/* ul */
+.container-cv-content ul {
+  list-style: disc;
+}
+/* li */
+.container-cv-content ul li {
+  font-size: 8px;
+  font-weight: 500;
+}
+/* h2,h3 */
+.container-cv-content h2,
+.container-cv-content h3 {
+  font-size: 7px;
+  font-weight: 700;
+}
+/* CONTENT */
+.header-cv {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.header-cv h1 {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+.title {
+  border-bottom: 1px solid black;
+  padding-bottom: 4px;
+  padding-top: 16px;
+}
+.job-title {
+  display: flex;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+strong {
+  font-weight: 700;
+}
+.education-degree p {
+  text-align: left;
+}
+.education-title {
+  border-bottom: 1px solid black;
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+.education-degree p {
+  padding-top: 4px;
+  font-weight: 500;
+}
+.job-date {
+  font-weight: 700 !important;
+}
+.job-title-content {
+  padding-left: 15px;
+}
+.job-title-content li {
+  padding-left: 4px;
+}
